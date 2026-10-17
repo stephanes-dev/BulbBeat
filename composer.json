@@ -1,0 +1,30 @@
+{
+    "name": "yhonaach/bulbbeat",
+    "description": "BulbBeat - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bulbbeat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bulbbeat\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yhonaach"
+        }
+    ]
+}
